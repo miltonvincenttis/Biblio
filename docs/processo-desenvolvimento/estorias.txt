@@ -1,0 +1,15 @@
+
+----------------------------------------------------------
+Estórias:
+----------------------------------------------------------
+
+Clientes:
+Listar/Incluir/Editar/Remover
+
+Usuario: (perfil: MELHORIA)
+
+Livros:
+Listar/Incluir/Editar/Remover
+
+Emprestimos:
+Listar/Emprestar/Devolver
