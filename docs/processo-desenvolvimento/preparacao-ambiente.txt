@@ -1,0 +1,43 @@
+
+-nodejs: https://nodejs.org/en/about/releases/
+-----------------------------------------------------
+   windows installer 64bits (.msi) 
+   https://nodejs.org/dist/v16.17.0/node-v16.17.0-x64.msi
+
+   colocar o path abaixo na variavel de ambiente PATH do usuário:
+   C:\Program Files\nodejs
+   fechar
+
+-angular: https://angular.io/guide/setup-local
+-----------------------------------------------------
+Abrir um terminal do Win10:
+   c:\ npm install -g @angular/cli@latest
+   exit
+
+Abrir um terminal Power Shell e executar o comando abaixo:
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   exit
+
+
+-----------------------------------------------------
+Criar pasta:
+   c:\workspace\projetos\biblio
+
+Adiocinar pasta e tudo abaixo ao git: (git desktop deve estar instalado)
+   abrir um terminal e ir para c:\workspace\projetos\biblio
+
+   emitir o comando abaixo na pasta: c:\workspace\projetos\biblio\>
+   c:\workspace\projetos\biblio\>git init
+
+   {pronto! tudo que estiver debaixo de c:\workspace\projetos\biblio\> irá pro }
+
+-----------------------------------------------------
+Criar folders de projeto:
+
+c:\workspace\projetos\biblio\frontend  //--- aqui vai ficar o angular
+c:\workspace\projetos\biblio\backend   //--- aqui vai ficar a API
+
+----------------------------------------------------
+Criar o projeto Angular para o frontend: Y e <enter>
+c:\workspace\projetos\biblio>ng new biblio.frontend  (Y e <enter>)
+
