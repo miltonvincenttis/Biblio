@@ -1,3 +1,5 @@
+[https://youtu.be/CdE6rVfPJ9I]
+
 
 -nodejs: https://nodejs.org/en/about/releases/
 -----------------------------------------------------
@@ -39,5 +41,5 @@ c:\workspace\projetos\biblio\backend   //--- aqui vai ficar a API
 
 ----------------------------------------------------
 Criar o projeto Angular para o frontend: Y e <enter>
-c:\workspace\projetos\biblio>ng new biblio.frontend  (Y e <enter>)
+c:\workspace\projetos\biblio\frontend>ng new biblio  (Y e <enter>)
 
