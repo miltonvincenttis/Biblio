@@ -1,0 +1,30 @@
+1 - https://youtu.be/CdE6rVfPJ9I
+1-2-3 - https://www.youtube.com/watch?v=4k8aCkFpHk0
+
+
+----------------------------------------------------
+Criar o projeto Angular para o frontend: Y e <enter>
+c:\workspace\projetos\biblio\frontend>ng new biblio  (Y e <enter>)
+
+Abrir o code em: 
+c:\workspace\projetos\biblio\frontend\biblio> code . <enter>
+
+*pode aparecer uma mensagem a direita/abaixo tipo: 
+'Angular Language Service' extension is recommended for this repository. 
+Do you want to install?
+*clicar no botão 'Install'
+
+
+----------------------------------------------------
+Pontos horáros no video onde há a exibição de tela:
+
+0.14.21 - menu
+0.16.11 -  "
+0.17.39 - inicio implementação de lista de empregados
+0.28.21 - lista de empregados pronta
+0.31.03 - inicio implementação backend
+1.08.07 - implementação final da listagem empregados vindo do SQL server
+1.08.21 - inicio implementação incluir
+1.29.39 - inicio implementação editar
+1.51.35 - inicio implementação remover
+ 

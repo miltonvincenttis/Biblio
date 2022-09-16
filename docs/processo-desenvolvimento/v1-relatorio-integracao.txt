@@ -1,0 +1,13 @@
+A idéia é o que App Biblio faça o seguinte:
+-cadastre literaturas
+-liste as literaturas por ordem alfabetica
+-permita saida e retirada de literatura.
+
+Durante a construção do aplicativo foi feito o uso prático de ferramentas e linguagens como:
+
+-Linguagem C#, Entity Framework
+-.NET 6.0
+-Banco de Dados SQL Server / SSMS
+-IDE MS Visual Studio (community)
+-Angular 14
+-Bootstrap: HTML/JS/CSS
