@@ -1,11 +1,29 @@
-<div class="container">
-    <div class="row">
-        <div class="col-9">
-            <p>literaturas-list works!</p>
-            <p>literaturas-list works!</p>
-            <p>literaturas-list works!</p>
-            <p>literaturas-list works!</p>
-            <p>literaturas-list works!</p>
-        </div>
-    </div>
+<div class="container my-5">
+<h1 class="mb-3">Literaturas</h1>
+
+<h5>
+<a class="nav-link active my-4" aria-current="page" routerLink="../inclusao-literatura">Cadastrar Literatura</a>
+</h5>
+
+<table class="table" *ngIf="literaturas.length > 0">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Disponivel</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let literatura of literaturas">
+            <td>{{ literatura.nome}}</td>
+            <td>{{ literatura.disponivel}}</td>
+            <td>Alterar</td>
+            <td>Excluir</td>
+            <td>Entrada</td>
+            <td>Saída</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="literaturas.length == 0">Nenhuma Literatura encontrada!</p>
+
 </div>

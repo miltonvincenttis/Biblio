@@ -16,7 +16,18 @@ Do you want to install?
 
 
 ----------------------------------------------------
-Pontos horáros no video onde há a exibição de tela:
+BACKEND:
+Instalar as dependencias para o Entity Framework:
+video #1 (32:26)
+
+Adicionar as dependencias para o Swagger:
+Ir até o NuGet e Instalar:
+Swashbuckle.AspNetCore.Swagger
+Swashbuckle.AspNetCore.SwaggerGen
+Swashbuckle.AspNetCore.SwaggerUI
+
+----------------------------------------------------
+Pontos horários no video onde há a exibição de tela:
 
 0.14.21 - menu
 0.16.11 -  "

@@ -1,7 +1,7 @@
 A idéia é o que App Biblio faça o seguinte:
--cadastre literaturas
--liste as literaturas por ordem alfabetica
--permita saida e retirada de literatura.
+-cadastrar  literaturas
+-listar as literaturas por ordem alfabetica
+-permitir saida e retirada de quantidade de literaturas.
 
 Durante a construção do aplicativo foi feito o uso prático de ferramentas e linguagens como:
 

@@ -1,4 +1,4 @@
-[https://youtu.be/CdE6rVfPJ9I]
+Baseado neste video: [https://youtu.be/CdE6rVfPJ9I]
 
 
 -nodejs: https://nodejs.org/en/about/releases/
