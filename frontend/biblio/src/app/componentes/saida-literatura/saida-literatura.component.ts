@@ -43,7 +43,7 @@ export class SaidaLiteraturaComponent implements OnInit {
   saidaEstoque() {
     console.log(this.saidaEstoqueRequest);
 
-    this.estoqueService.saidaEstoque(this.saidaEstoqueRequest.id, this.saidaEstoqueRequest).
+    this.estoqueService.saidaEstoque(this.saidaEstoqueRequest.id, this.saidaEstoqueRequest). 
       subscribe({
         next: (response) => {
           this.router.navigate(['literaturas-list']); 

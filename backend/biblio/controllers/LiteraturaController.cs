@@ -23,7 +23,7 @@ namespace biblio.controllers
         [HttpGet]
         public async Task<IActionResult> GetAllLiteraturas()
         {
-            var literaturas = await this.biblioDbContext.Literaturas.ToListAsync();
+            var literaturas = await this.biblioDbContext.Literaturas.OrderBy(p => p.Nome).ToListAsync();
 
             return Ok(literaturas);
         }
