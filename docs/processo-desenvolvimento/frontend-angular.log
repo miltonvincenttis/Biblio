@@ -23,15 +23,3 @@ Swashbuckle.AspNetCore.SwaggerGen
 Swashbuckle.AspNetCore.SwaggerUI
 
 ----------------------------------------------------
-Pontos horários no video onde há a exibição de tela:
-
-0.14.21 - menu
-0.16.11 -  "
-0.17.39 - inicio implementação de lista de empregados   			OK
-0.28.21 - lista de empregados pronta    					OK
-0.31.03 - inicio implementação backend						OK
-1.08.07 - implementação final da listagem empregados vindo do SQL server	OK
-1.08.21 - inicio implementação incluir  (51:30) implemetanção backend		OK
-1.29.39 - inicio implementação editar						OK
-1.51.28 - inicio implementação remover						..
- 
