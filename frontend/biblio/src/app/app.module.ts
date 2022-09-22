@@ -8,13 +8,21 @@ import { LiteraturasListComponent } from './componentes/literaturas/literaturas-
 import { SplashComponent } from './componentes/literaturas/splash/splash.component';
 import { InclusaoLiteraturaComponent } from './componentes/inclusao-literatura/inclusao-literatura.component';
 import { FormsModule } from '@angular/forms';
+import { AlteracaoLiteraturaComponent } from './componentes/alteracao-literatura/alteracao-literatura.component';
+import { ExclusaoLiteraturaComponent } from './componentes/exclusao-literatura/exclusao-literatura.component';
+import { EntradaLiteraturaComponent } from './componentes/entrada-literatura/entrada-literatura.component';
+import { SaidaLiteraturaComponent } from './componentes/saida-literatura/saida-literatura.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LiteraturasListComponent,
     SplashComponent,
-    InclusaoLiteraturaComponent
+    InclusaoLiteraturaComponent,
+    AlteracaoLiteraturaComponent,
+    ExclusaoLiteraturaComponent,
+    EntradaLiteraturaComponent,
+    SaidaLiteraturaComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,10 +16,10 @@
         <tr *ngFor="let literatura of literaturas">
             <td>{{ literatura.nome}}</td>
             <td>{{ literatura.disponivel}}</td>
-            <td>Alterar</td>
-            <td>Excluir</td>
-            <td>Entrada</td>
-            <td>Saída</td>
+            <td><a class="nav-link active" aria-current="page" [routerLink]="['../alteracao-literatura',literatura.id]">Alterar</a></td>
+            <td><a class="nav-link active" aria-current="page" [routerLink]="['../exclusao-literatura',literatura.id]">Excluir</a></td>
+            <td><a class="nav-link active" aria-current="page" [routerLink]="['../entrada-literatura',literatura.id]">Entrada</a></td>
+            <td><a class="nav-link active" aria-current="page" [routerLink]="['../saida-literatura',literatura.id]">Saída</a></td>
         </tr>
     </tbody>
 </table>

@@ -1,0 +1,25 @@
+<div class="container my-5 d-flex justify-content-center">
+    <h1 class="mb-3">Saída de Literatura</h1>
+</div>
+
+<div class="col-6 container justify-content-center">
+    <form class="row g-3" #form="ngForm" (ngSubmit)="saidaEstoque()">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome: </label>
+            <input disabled type="text" class="form-control" id="nome" aria-describedby="nomeHelp" name="nome" [(ngModel)]="saidaEstoqueRequest.nome">
+        </div>
+
+        <div class="mb-3">
+            <label for="disponivel" class="form-label">Quantidade: </label>
+            <input type="number" class="form-control" id="disponivel" aria-describedby="disponivelHelp" name="disponivel" [(ngModel)]="saidaEstoqueRequest.quantidade">
+        </div>
+
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Salvar</button>
+        </div>
+        
+        <div class="col-auto">
+            <a class="btn btn-primary mb-3" routerLink="../../literaturas-list">Cancelar</a>
+        </div>
+    </form>
+</div>

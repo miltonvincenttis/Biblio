@@ -1,0 +1,21 @@
+<div class="container my-5 d-flex justify-content-center">
+    <h1 class="mb-3">Alteração de Literatura</h1>
+</div>
+
+<div class="col-6 container justify-content-center">
+    <form class="row g-3" #form="ngForm" (ngSubmit)="atualizarLiteratura()">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome: </label>
+            <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp" name="nome" [(ngModel)]="alteracaoLiteraturaRequest.nome">
+            <div id="nomeHelp" class="form-text">Entrar com nome da literatura conforme
+                https://wol.jw.org/pt/wol/d/r5/lp-t/1200270068</div>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Salvar</button>
+        </div>
+        
+        <div class="col-auto">
+            <a class="btn btn-primary mb-3" routerLink="../../literaturas-list">Cancelar</a>
+        </div>
+    </form>
+</div>
