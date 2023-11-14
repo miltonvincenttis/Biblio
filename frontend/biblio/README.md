@@ -1,27 +1,23 @@
 # Biblio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+Projeto que implementa um App para controle de estoques de Livros simples.
+Com entrada e saída de Livros.
 
-## Development server
+Implementa API com CRUD básico.
+Implementa CRUD básico e acesso a API backend.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## História
 
-## Code scaffolding
+Foi inicialmente implementado em ng 14.x.
+Atualizado em 2023-11-14 11:29 para ng 17.0.2
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ele serve de base para projetos frontend implementados com Angular.
+Como a estrutura de backend e frontend estão separadas elas podem sofrer mudanças
+independentes sem efeito colateral.
 
-## Build
+## Estrutura
+O App todo é implementado em client/server.
+Dois projetos separados: backend (server) e frontend (client).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Backend (API) original fora implementado em .NET com DMBS SQLServer e MS Visual Studio.
+Frontend original fora implementado em Angular 14.x e Bootstrap 4.x
