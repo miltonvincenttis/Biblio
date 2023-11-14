@@ -1,6 +1,6 @@
 # Biblio
 
-Projeto que implementa um App para controle de estoques de Livros simples.
+Este projeto implementa um App para controle de estoques de Livros simples.
 Com entrada e saída de Livros.
 
 Implementa API com CRUD básico.
