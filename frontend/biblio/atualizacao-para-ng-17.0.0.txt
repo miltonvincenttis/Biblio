@@ -1,0 +1,22 @@
+C:\workspace\dev\projetos\biblio\frontend\biblio>npm outdated
+
+@angular-devkit/build-angular      14.2.13  14.2.13  17.0.0  node_modules/@angular-devkit/build-angular      biblio
+@angular/animations                 14.3.0   14.3.0  17.0.2  node_modules/@angular/animations                biblio
+@angular/cli                       14.2.13  14.2.13  17.0.0  node_modules/@angular/cli                       biblio
+@angular/common                     14.3.0   14.3.0  17.0.2  node_modules/@angular/common                    biblio
+@angular/compiler                   14.3.0   14.3.0  17.0.2  node_modules/@angular/compiler                  biblio
+@angular/compiler-cli               14.3.0   14.3.0  17.0.2  node_modules/@angular/compiler-cli              biblio
+@angular/core                       14.3.0   14.3.0  17.0.2  node_modules/@angular/core                      biblio
+@angular/forms                      14.3.0   14.3.0  17.0.2  node_modules/@angular/forms                     biblio
+@angular/platform-browser           14.3.0   14.3.0  17.0.2  node_modules/@angular/platform-browser          biblio
+@angular/platform-browser-dynamic   14.3.0   14.3.0  17.0.2  node_modules/@angular/platform-browser-dynamic  biblio
+@angular/router                     14.3.0   14.3.0  17.0.2  node_modules/@angular/router                    biblio
+@types/jasmine                       4.0.3    4.0.3   5.1.2  node_modules/@types/jasmine                     biblio
+jasmine-core                         4.3.0    4.3.0   5.1.1  node_modules/jasmine-core                       biblio
+karma-chrome-launcher                3.1.1    3.1.1   3.2.0  node_modules/karma-chrome-launcher              biblio
+karma-jasmine-html-reporter          2.0.0    2.0.0   2.1.0  node_modules/karma-jasmine-html-reporter        biblio
+rxjs                                 7.5.7    7.5.7   7.8.1  node_modules/rxjs                               biblio
+typescript                           4.7.4    4.7.4   5.2.2  node_modules/typescript                         biblio
+zone.js                             0.11.8   0.11.8  0.14.2  node_modules/zone.js                            biblio
+
+npm update @angular-devkit/build-angular@^17.0.0 @angular/animations@^17.0.2 @angular/cli@^17.0.0  @angular/common@^17.0.2 @angular/compiler-cli@^17.0.2   @angular/core@^17.0.2 @angular/forms@^17.0.2 @angular/platform-browser@^17.0.2 @angular/-browser-dynamic@^17.0.2 @angular/router@^17.0.2 @types/jasmine@^5.1.2 jasmine-core@^5.1.1  karma-chrome-launcher@^3.2.0  karma-jasmine-html-reporter@^2.1.0 rxjs@^7.8.1 typescript@^5.2.2  zone.js@^0.14.2
