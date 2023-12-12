@@ -3,8 +3,7 @@
 Este projeto implementa um App para controle de estoques de Livros simples.
 Com entrada e saída de Livros.
 
-Implementa API com CRUD básico.
-Implementa CRUD básico e acesso a API backend.
+Implementa REST API com CRUD básico.
 
 ## História
 
@@ -16,8 +15,8 @@ Como a estrutura de backend e frontend estão separadas elas podem sofrer mudan�
 independentes sem efeito colateral.
 
 ## Estrutura
-O App todo é implementado em client/server.
-Dois projetos separados: backend (server) e frontend (client).
+O App é implementado em client/server.
+Dois projetos separados: backend API REST (server) e frontend WEB.
 
-Backend (API) original fora implementado em .NET com DMBS SQLServer e MS Visual Studio.
-Frontend original fora implementado em Angular 14.x e Bootstrap 4.x
+REST API original fora implementado em .NET com DMBS SQLServer e MS Visual Studio.
+Frontend WEB original fora implementado em Angular 14.x e Bootstrap 4.x
